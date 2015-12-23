@@ -153,11 +153,7 @@ footer {
 	background: #6C7B8B;
 	opacity: 0.6;
 	-moz-opacity: 0.6;
-<<<<<<< e1195c3c2d8c4ad4fd1a667f6250140d0d6bc136
 	filter: alpha(opacity=60);
-=======
-	filter: alpha(opacity=70);
->>>>>>> Responsiveness improved
 }
 .comming-soon p{ margin-top: 60px; }
 .link-icon{ 
