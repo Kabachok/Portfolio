@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio</title>
+
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+	    <link href="css/styles.css" rel="stylesheet">
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top"> <!-- navigation -->
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#home-screen"><span class="brand-text">Some Name</span></a>
+				</div>
+				<!-- toggled part -->
+				<div class="collapse navbar-collapse" id="nav-toggle">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-button active" id='nav-home'>
+							<a href="#home-screen">Home</a>
+						</li>
+						<li class="nav-button" id='nav-about'>
+							<a href="#about-screen">About</a>
+						</li>
+						<li class="nav-button" id='nav-projects'>
+							<a href="#projects-screen">Projects</a>
+						</li>
+						<li class="nav-button" id='nav-contscts'>
+							<a href="#contacts-screen">Contacts</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav> <!-- / navigation -->
+
+		<!-- main content -->
+
+		<!-- home screen -->
+		<div class="container screen-page screen-home">
+			<a target='_blank' id="home-screen"></a>
+			<div class="screen-content home"> <!-- screen content -->
+				<h1 class="name">Some Name</h1>
+				<p>Front End Web Development</p>
+				<hr class="divider"/>
+				<div class="social-btn"> <!-- social buttons -->
+					<a href="https://www.facebook.com/koumori.daria" class="btn btn-default btn-lg" target="_blank">
+						<i class="fa fa-facebook fa-fw"></i>
+						Facebook
+					</a>
+					<a href="http://dariakoumori.deviantart.com/" class="btn btn-default btn-lg" target="_blank">
+						<i class="fa fa-deviantart fa-fw"></i>
+						DeviantART
+					</a>
+					<a href="https://github.com/Kabachok" class="btn btn-default btn-lg" target="_blank">
+						<i class="fa fa-github fa-fw"></i>
+						GitHub
+					</a><br>
+					<a href="https://ru.linkedin.com/in/koumoridaria" class="btn btn-default btn-lg" target="_blank">
+						<i class="fa fa-linkedin fa-fw"></i>
+						LinkedIn
+					</a>
+					<a href="http://www.freecodecamp.com/kabachok" class="btn btn-default btn-lg" target="_blank">
+						<i class="fa fa-fire fa-fw"></i>
+						freeCodeCamp
+					</a>
+				</div> <!-- / social buttons -->
+			</div><!--  / screen content -->
+			
+		</div>
+
+		<!-- about screen -->
+		<div class="container screen-page screen-about">
+			<a target='_blank' id="about-screen"></a>
+			<div class="screen-content"> <!-- screen content -->
+				<h1>About</h1>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6 move-center">
+						<img src="http://pre09.deviantart.net/9a8c/th/pre/i/2015/354/2/1/f_by_dariakoumori-d9kugnv.jpg" class="img-responsive photo" alt="Daria Krapiva"/>
+						<h2>Some Name</h2>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-sm-pull-6">
+						<p>I have studied Web Development at college. Worked as a VB.NET and Delphy programmer for a one year.</p>
+						<p>Competences:</p>
+						<div class="row">
+							<div class="col-xs-6 tab-list hdr">
+								<p>Languages, Frameworks</p>
+							</div>
+							<div class="col-xs-6 tab-list hdr">
+								<p>Tools, expertise:</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-6 tab-list">
+								<p>Javascript, HTML5, CSS3, jQuery, Bootstrap3, Meteor.js, Node.js</p>
+							</div>
+							<div class="col-xs-6 tab-list">
+								<p>Git, GitHub, Responsive Web Design, Agile Methodologies.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--  / screen content -->
+		</div>
+
+		<!-- projects screen -->
+		<div class="container screen-page screen-projects">
+			<a target='_blank' id="projects-screen"></a>
+			<div class="screen-content"> <!-- screen content -->
+				<h1>Projects</h1>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<div class="site-thumbnail js-hvr" id="thmb1">
+							<div class="hover-panel" id="pan1">
+								<a href="http://kabachok.github.io/InteractivePage/">
+									<i class="fa fa-github fa-fw link-icon"></i>
+								</a>
+								<p>Details:</p>
+								<div class="tag-line">
+									<span class="thumb-tag">HTML</span>
+									<span class="thumb-tag">CSS</span>
+									<span class="thumb-tag">JavaScript</span>
+									<span class="thumb-tag">jQuery</span>
+									<span class="thumb-tag">Bootstrap</span>
+								</div>
+							</div>
+							<div class="site-image">
+								<img src="http://orig00.deviantart.net/5988/f/2015/354/b/1/1_by_dariakoumori-d9kvbxp.png" class="img-responsive"/>
+							</div>
+							<div class="site-desc">
+								<p>Interactive Page</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="site-thumbnail js-hvr" id="thmb2">
+							<div class="hover-panel" id="pan2">
+								<a href="http://kabachok.github.io/MyTasks/">
+									<i class="fa fa-github fa-fw link-icon"></i>
+								</a>
+								<p>Details:</p>
+								<div class="tag-line">
+									<span class="thumb-tag">HTML</span>
+									<span class="thumb-tag">CSS</span>
+									<span class="thumb-tag">JavaScript</span>
+									<span class="thumb-tag">jQuery</span>
+									<span class="thumb-tag">Bootstrap</span>
+								</div>
+							</div>
+							<div class="site-image">
+								<img src="http://orig09.deviantart.net/3b7e/f/2015/355/9/c/2_by_dariakoumori-d9kvu7r.png" class="img-responsive"/>
+							</div>
+							<div class="site-desc">
+								<p>My Tasks</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="site-thumbnail js-hvr" id="thmb3">
+							<div class="hover-panel" id="pan3">
+								<a href="http://kabachok.github.io/Classification/">
+									<i class="fa fa-github fa-fw link-icon"></i>
+								</a>
+								<p>Details:</p>
+								<div class="tag-line">
+									<span class="thumb-tag">HTML</span>
+									<span class="thumb-tag">CSS</span>
+									<span class="thumb-tag">JavaScript</span>
+									<span class="thumb-tag">Bootstrap</span>
+									<span class="thumb-tag">Handlebars</span>
+								</div>
+							</div>
+							<div class="site-image">
+								<img src="http://orig01.deviantart.net/b0b1/f/2015/354/3/6/3_by_dariakoumori-d9kvbxd.png" class="img-responsive"/>
+							</div>
+							<div class="site-desc">
+								<p>Classification</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="site-thumbnail comming-soon">
+							<p>More Comming Soon...<i class="fa fa-pencil fa-fw"></i></p>
+						</div>
+					</div>
+				</div>
+			</div><!--  / screen content -->
+		</div>
+
+		<!-- contacts screen -->
+		<div class="container screen-page screen-contacts">
+			<a target='_blank' id="contacts-screen"></a>
+			<div class="screen-content"> <!-- screen content -->
+				<h1>Contacts</h1>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<h2 class="move-center">Social links</h2>
+						<!-- toggled for mobiles -->
+						<div class="social-btn move-center"> <!-- social buttons -->
+							<a href="http://dariakoumori.deviantart.com/" class="btn btn-default btn-lg" target="_blank">
+								<i class="fa fa-deviantart fa-fw"></i>
+								DeviantART
+							</a><br/>
+							<a href="https://github.com/Kabachok" class="btn btn-default btn-lg" target="_blank">
+								<i class="fa fa-github fa-fw"></i>
+								GitHub
+							</a><br/>
+							<a href="https://ru.linkedin.com/in/koumoridaria" class="btn btn-default btn-lg" target="_blank">
+								<i class="fa fa-linkedin fa-fw"></i>
+								LinkedIn
+							</a><br/>
+							<a href="https://www.facebook.com/koumori.daria" class="btn btn-default btn-lg" target="_blank">
+								<i class="fa fa-facebook fa-fw"></i>
+								Facebook
+							</a><br/>
+							<a href="http://www.freecodecamp.com/kabachok" class="btn btn-default btn-lg" target="_blank">
+								<i class="fa fa-fire fa-fw"></i>
+								freeCodeCamp
+							</a>
+						</div> <!-- / social buttons -->
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<h2 class="move-center">Credits</h2>
+						<p>All images was created by me. Click on the button below to open a folder with my fractals.</p>
+						<div class="social-btn move-center"> <!-- social buttons -->
+							<a href="http://dariakoumori.deviantart.com/gallery/51707668/FractalArt" class="btn btn-default btn-lg" target="_blank">
+								<i class="fa fa-folder-open fa-fw"></i>
+								FractalArt
+							</a>
+						</div> <!-- / social buttons -->
+					</div>
+				</div>
+			</div><!--  / screen content -->
+		</div> <!-- / main content -->
+
+
+		<!-- footer -->
+		<footer>
+			<div class="container-fluid">
+				<p class="footer-text">Developed for <a href="http://www.freecodecamp.com/">freeCodeCamp</a><br>Daria, 2015</p>
+			</div>
+		</footer>
+
+		<!-- jQuery -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <!-- rest scripts -->
+	    <script src="js/script.js"></script>
+	</body>
+</html>

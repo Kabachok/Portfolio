@@ -1,0 +1,248 @@
+/*general*/ 
+body { padding-top: 50px; }
+h1 { 
+	font-size: 4em; 
+	padding-bottom: 30px;
+	text-shadow: 3px 3px 0 black,
+                 4px 4px 0 #F4E8FF;
+}
+h2 { color: #dBd2eF; }
+p { font-size: 1.5em; }
+.move-center {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	background: #F4E8FF;
+}
+.footer-text {
+	margin: 10px auto;
+	font-size: 0.85em;
+}
+
+
+/*nav bar*/
+.navbar-default {
+	margin-bottom: 0px;
+    background: #F4E8FF;
+    border: 0px;
+}
+.navbar-default .navbar-nav > .nav-button > a{
+	font-size: 1.5em;
+	text-align: center;
+	min-width: 130px;
+	padding: auto 15px;
+	color: #666;
+	background: #F4E8FF;
+}
+.navbar-default .navbar-nav > .nav-button > a:hover {
+    font-size: 1.7em;
+    color: #F4E8FF;
+    background: #8F8C8F;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: #F4E8FF;
+    background: #363636;
+}
+.brand-text {
+	color: #666;
+	font-size: 1.3em;
+}
+.brand-text:hover{
+	color: #708090;
+}
+
+
+/*screens*/
+.screen-page{
+	height: 700px;
+    width: 100%;
+	margin: 0px;
+	color: #F4E8FF;
+	background: #666;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.screen-content{
+	padding-top: 60px;
+	text-align: justify;
+}
+.name{
+	padding-bottom: 10px;
+}
+.home{
+	padding-top: 200px;
+	text-align: center;
+}
+.screen-home{
+	background-image: url("http://pre13.deviantart.net/f0ac/th/pre/f/2015/188/d/d/dd8305793c2db832c8f66e3937cd1822-d90a3ju.png");
+}
+.screen-about{
+	background-image: url("http://pre04.deviantart.net/45aa/th/pre/i/2014/356/7/b/perl_by_dariakoumori-d8ar2i0.jpg");
+}
+.screen-projects{
+	background-image: url("http://pre15.deviantart.net/46e4/th/pre/f/2015/188/4/6/46eb7b50fb5842f0a3e37c69aad70381-d90akcv.png");
+}
+.screen-contacts{
+	background-image: url("http://pre08.deviantart.net/3f8a/th/pre/f/2015/044/f/a/spirals_by_dariakoumori-d8hu3h3.png");
+}
+.divider{
+	height: 20px;
+	width: 80%;
+	border-color: #999;
+    box-shadow: inset 0 12px 12px -12px rgba(250, 250, 250, 0.8);
+}
+.photo{
+	max-height: 300px;
+	border-radius: 50%;
+	margin: auto;
+	border: 5px solid #F4E8FF;
+}
+.tab-list{
+	padding: 5px 10px;
+	color: floralwhite;
+	text-align: center;
+	font-style: italic;
+	min-height: 80px;
+	max-height: 150px;
+	border-left: 2px solid #F4E8FF;
+}
+.hdr{ background: #8B5F65;}
+
+/*thumbnails*/
+.site-thumbnail{
+	min-height: 200px;
+	margin: 10px auto;
+	position: relative;
+	border: 1px dotted #F4E8FF;
+}
+.hover-panel{
+	position: absolute;
+	min-height: 200px;
+	max-height: 100%;
+    width: 100%;
+    overflow: hidden;
+	background: rgba(17, 17, 34, 0.7);
+	padding: 20px 30px;
+	text-align: center;
+	z-index: 5;
+	display: none;
+}
+.site-image{
+	position: absolute;
+	min-height: 200px;
+	max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.site-desc{
+	position: absolute;
+	top: 150px;
+	max-height: 50px;
+	width: 100%;
+	background: #6C7B8B;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.comming-soon{
+	text-align: center;
+	background: #6C7B8B;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+<<<<<<< e1195c3c2d8c4ad4fd1a667f6250140d0d6bc136
+	filter: alpha(opacity=60);
+=======
+	filter: alpha(opacity=70);
+>>>>>>> Responsiveness improved
+}
+.comming-soon p{ margin-top: 60px; }
+.link-icon{ 
+	font-size: 5em;
+	color: #F4E8FF;
+	text-decoration: none;
+}
+.link-icon:hover{
+	color: #009999;
+}
+.thumb-tag{
+	border-radius: 10px;
+	background: #F4E8FF;
+	color: #000;
+	font-style: bold;
+	padding: 10px;
+}
+
+/*buttons*/
+.social-btn .btn-default{
+	margin-top: 10px;
+	min-width: 210px;
+	max-height: 50px;
+	color: #555;
+}
+.social-btn .btn-default,
+.social-btn .btn-default:focus{
+	font-size: 1.5em;
+	text-align: center;
+	padding: auto 15px;
+	background: #F4E8FF;
+}
+.social-btn .btn-default:hover {
+    color: #F4E8FF;
+    background: #363636;
+}
+
+/* add @media for small screens*/
+@media (max-width: 750px) {
+  h1{
+  	padding-bottom: 0px;
+  }
+  .screen-page{
+  	min-height: 750px;
+  }
+  .screen-content{
+  	padding-top: 50px;
+  }
+  .home{
+  	padding-top: 40px;
+  }
+  .photo{
+  	max-height: 100px;
+  	border: 2px solid #F4E8FF;
+  }
+  .site-thumbnail{
+  	min-height: 110px;
+  }
+  .hover-panel{
+  	left: 70%;
+  	width: 30%;
+  	min-height: 110px;
+	padding: 5px 10px;
+	display: block;
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+  }
+  .hover-panel p{
+  	display: none;
+  }
+  .site-image{
+  	width: 70%;
+  	min-height: 110px;
+  }
+  .site-desc{
+  	width: 70%;
+  	top: 60px;
+  }
+  .comming-soon p{ margin-top: 30px; }
+  .link-icon{
+  	font-size: 3em;
+  }
+  .thumb-tag{
+  	padding: 2px;
+  	font-size: 0.5em;
+  }
+}
