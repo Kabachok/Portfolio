@@ -2,6 +2,10 @@
 Simple site with only one page.
 An example of responsive mobile-first design.
 
+http://example-funny-pages.neocities.org/Portfolio/index.html
+
+http://kabachok.github.io/Portfolio/
+
 Used technologies:
 * HTML
 * CSS
