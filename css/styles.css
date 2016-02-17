@@ -1,12 +1,13 @@
 /*general*/ 
 body { padding-top: 50px; }
 h1 { 
+	color: #bfacac;
 	font-size: 4em; 
 	padding-bottom: 30px;
 	text-shadow: 3px 3px 0 black,
                  4px 4px 0 #F4E8FF;
 }
-h2 { color: #dBd2eF; }
+.white-text{ color: floralwhite; }
 p { font-size: 1.5em; }
 .move-center {
 	text-align: center;
@@ -26,6 +27,7 @@ footer {
 	margin-bottom: 0px;
     background: #F4E8FF;
     border: 0px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);;
 }
 .navbar-default .navbar-nav > .nav-button > a{
 	font-size: 1.5em;
@@ -57,14 +59,15 @@ footer {
 
 /*screens*/
 .screen-page{
-	height: 700px;
+	min-height: 700px;
     width: 100%;
 	margin: 0px;
-	color: #F4E8FF;
-	background: #666;
+	color: #444;
+	background: #F4E8FF;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	border-top: 3px dotted #888;
 }
 .screen-content{
 	padding-top: 60px;
@@ -72,6 +75,7 @@ footer {
 }
 .name{
 	padding-bottom: 10px;
+	color: floralwhite;
 }
 .home{
 	padding-top: 200px;
@@ -81,13 +85,10 @@ footer {
 	background-image: url("http://pre13.deviantart.net/f0ac/th/pre/f/2015/188/d/d/dd8305793c2db832c8f66e3937cd1822-d90a3ju.png");
 }
 .screen-about{
-	background-image: url("http://pre04.deviantart.net/45aa/th/pre/i/2014/356/7/b/perl_by_dariakoumori-d8ar2i0.jpg");
-}
-.screen-projects{
-	background-image: url("http://pre15.deviantart.net/46e4/th/pre/f/2015/188/4/6/46eb7b50fb5842f0a3e37c69aad70381-d90akcv.png");
+	padding-left: 50px;
 }
 .screen-contacts{
-	background-image: url("http://pre08.deviantart.net/3f8a/th/pre/f/2015/044/f/a/spirals_by_dariakoumori-d8hu3h3.png");
+	background-image: url("http://pre04.deviantart.net/45aa/th/pre/i/2014/356/7/b/perl_by_dariakoumori-d8ar2i0.jpg");
 }
 .divider{
 	height: 20px;
@@ -96,28 +97,32 @@ footer {
     box-shadow: inset 0 12px 12px -12px rgba(250, 250, 250, 0.8);
 }
 .photo{
-	max-height: 300px;
+	max-height: 200px;
 	border-radius: 50%;
 	margin: auto;
 	border: 5px solid #F4E8FF;
 }
 .tab-list{
-	padding: 5px 10px;
-	color: floralwhite;
+	padding: 0px 10px 25px;
 	text-align: center;
 	font-style: italic;
-	min-height: 80px;
-	max-height: 150px;
-	border-left: 2px solid #F4E8FF;
 }
-.hdr{ background: #8B5F65;}
+.hdr{ 
+	background: #8B5F65;
+	color: floralwhite;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-top: 25px;
+	border-left: 2px solid #444;
+}
 
 /*thumbnails*/
 .site-thumbnail{
 	min-height: 200px;
 	margin: 10px auto;
 	position: relative;
-	border: 1px dotted #F4E8FF;
+	border: 1px dotted #777;
 }
 .hover-panel{
 	position: absolute;
@@ -150,7 +155,6 @@ footer {
 }
 .comming-soon{
 	text-align: center;
-	background: #6C7B8B;
 	opacity: 0.6;
 	-moz-opacity: 0.6;
 	filter: alpha(opacity=60);
@@ -164,12 +168,15 @@ footer {
 .link-icon:hover{
 	color: #009999;
 }
+.tag-line {line-height: 200%;}
 .thumb-tag{
 	border-radius: 10px;
 	background: #F4E8FF;
 	color: #000;
+	font-size: 0.8em;
 	font-style: bold;
-	padding: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
 }
 
 /*buttons*/
@@ -195,6 +202,9 @@ footer {
 @media (max-width: 750px) {
   h1{
   	padding-bottom: 0px;
+  }
+  .screen-about{
+  	padding-left: 0px;
   }
   .screen-page{
   	min-height: 750px;
@@ -237,6 +247,7 @@ footer {
   .link-icon{
   	font-size: 3em;
   }
+  .tag-line {line-height: 150%;}
   .thumb-tag{
   	padding: 2px;
   	font-size: 0.5em;
